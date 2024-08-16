@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(roboto/roboto-bold-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* forsiden start */
+
+body {
+  width: auto;
+  height: auto;
+  background-color: #dde7f0;
+  margin: 0;
+}
+
+#background_color_forside {
+  background-color: #d3d9d7;
+}
+
+.forside_menu {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+}
+.forside {
+  height: auto;
+  background-color: #d3d9d7;
+  color: #21331f;
+  padding: 20px;
+}
+
+.overskrift_forside {
+  font-family: "roboto";
+  font-size: 2.5rem;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.grid_2-1 {
+  font-family: "taviraj";
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+.col {
+  font-family: "taviraj";
+  font-size: 1rem;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+.grid_1-1 {
+  font-family: "taviraj";
+  font-size: 1rem;
+  line-height: 25px;
+}
+.grid_1-1.col {
+  max-width: 65ch;
+}
+
+p {
+  font-family: "taviraj";
+  font-size: 1rem;
+  line-height: 25px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+dl {
+  font-family: "taviraj";
+  padding-left: 10px;
+}
+
+.footer_forside {
+  height: auto;
+  background-color: #d3d9d7;
+  color: #21331f;
+  text-decoration-line: overline underline;
+  text-align: center;
+}
+/* forsiden end */
+
+/* min computer start */
+#background_color_mincomputer {
+  background-color: #a0b9cf;
+}
+
+.mincomputer {
+  height: auto;
+  background-color: #a0b9cf;
+  color: #10102d;
+  padding: 20px;
+}
+
+.overskrift_mincomputer {
+  font-family: "roboto";
+  font-size: 2.5rem;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.wrap_mincomputer {
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+.specifik_mincomputer {
+  font-family: "taviraj";
+  font-size: 1rem;
+  line-height: 25px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.footer_mincomputer {
+  height: auto;
+  background-color: #a0b9cf;
+  color: #10102d;
+  text-decoration-line: overline underline;
+  text-align: center;
+}
+
+/* min computer end */
+
+/* operativ start */
+
+#background_color_operativ {
+  background-color: #d9d4d8;
+}
+
+.operativ {
+  height: auto;
+  background: #d9d4d8;
+  color: #2d232e;
+  padding: 20px;
+}
+
+.overskrift_operativ {
+  font-family: "roboto";
+  font-size: 2.5rem;
+  padding-top: 10px;
+}
+
+.img_mac {
+  padding-top: 20px;
+}
+
+.img_tablet {
+  padding: 20px;
+}
+.footer_operativ {
+  height: auto;
+  background: #d9d4d8;
+  color: #363130;
+  text-decoration-line: overline underline;
+  text-align: center;
+}
+.order {
+  order: -1;
+}
+
+/* operativ end */
+
+/* komponenter start */
+
+#background_color_komponenter {
+  background: #585365;
+}
+
+.komponenter {
+  height: auto;
+  background: #585365;
+  color: #ddeef9;
+  padding: 20px;
+}
+
+.overskrift_komponenter {
+  font-family: "roboto";
+  font-size: 2.5rem;
+  padding-top: 10px;
+}
+h3 {
+  padding-left: 10px;
+}
+.flex_col {
+  padding: 5px;
+}
+
+.footer_komponenter {
+  height: auto;
+  background: #585365;
+  color: #ddeef9;
+  padding: 5px;
+  text-decoration-line: overline underline;
+  text-align: center;
+}
+/* komponenter end */
+
+/* galleri start */
+
+#background_color_galleri {
+  background-color: #110523;
+}
+
+.overskrift_galleri {
+  font-family: "roboto";
+  font-size: 2.5rem;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.background-galleri {
+  height: auto;
+  background-color: #110523;
+  color: #ffd6ed;
+  padding: 20px;
+}
+.grid_1-1-1-1 {
+  background-color: #110523;
+  padding: 20px;
+}
+
+.footer_galleri {
+  height: auto;
+  background-color: #110523;
+  color: #f799ce;
+  text-decoration-line: overline underline;
+  text-align: center;
+  align-items: center;
+}
+/* galleri end */
+
+h2 {
+  font-family: "roboto";
+  padding: 10px 0px 0px 10px;
+}
